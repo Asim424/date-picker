@@ -34,7 +34,7 @@ class datepicker extends Thread{
 		JComboBox<String> days = new JComboBox<String>(day);
 		JLabel toptext = new JLabel("choose a day you want to be reminded on");
 		JButton confirmdate = new JButton("confirm date?");
-
+//this is a change
 		panel.add(confirmdate);
 		panel.add(toptext);
 		panel.add(years);		
